@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');*/
+body{
+    background: #f3f3f3;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.info{  
+    text-align: center;
+    margin-top: 50px;
+}
+.info header{
+    font-size: 24px;
+}
+.info .about span{
+    font-weight: bold;
+}
+#myInput{
+    width: 50%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+#myUL{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#myUL li a{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 13px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    display: block;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.search span{
+    font-size: 28px;
+    font-weight: bold;
+}
+.waznoscZestawienia{
+    font-size: 16px;
+    color: #000088;
+}
+.nazwaZestawienia, .nazwaLokomotywy, .nazwaKategori{
+    color: #880000;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    font-size: 20px;
+    background-color: #000000;
+    text-align: center;
+    text-decoration: bold;
+    height: auto;
+    color: #fff;
+    line-height: 60px;
+    position: static;
+    bottom: 0;
+    margin-top: 50px; 
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.smh{
+    position: fixed;
+}
+.skladInfo{
+    margin: 20px;
+    display: flex;
+}
+.lokomotywa{
+    margin-right: 50px;
+}
+.wagon{
+    max-height: 100px;
+}
+.relacja{
+    font-size: 14px;
+    color: #000088;
+}
+.relacja span{
+    text-align: right;
+}
+.spacovnik{
+    font-size: 14px;
+    color: #f3f3f3;
+}
+.relacjaInfo{
+    margin: 20px;
+}
+.smh a span{
+    font-weight: bold;
+}
+.wkrotce{
+    margin-top: 400px;
+}
+.info{
+    margin-top: auto;
+}
+.bold{
+    font-weight: bold;
+}
